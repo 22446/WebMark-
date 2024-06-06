@@ -1,0 +1,55 @@
+.dot{
+    border-bottom: 0px;
+    border-style: dotted;
+    color: black;
+}
+.parent{
+    background-color: #F7ECDE;
+}
+
+.head h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    color: rgb(53, 46, 40);
+    font-size: 50px;
+    position: relative;
+    z-index: 2;
+}
+.head h1::after{
+    content: "";
+    background-color: #FEC260;
+    width: 24%;
+    height: 30%;
+    bottom: 0;
+    right: 38%;
+    z-index: -1;
+    position: absolute;
+    transition: height,1s;
+}
+.head h1:hover::after{
+    content: "";
+    height: 90%;
+    
+}
+div h3{
+    font-family: "Righteous", sans-serif;
+    color:  #3ca55c;
+    opacity: 0.9;
+    font-size: 25px;
+  
+}
+div h3 span{
+    color: #b5ac49;
+    opacity: 0.8;
+}
+div h3 i:nth-last-of-type(1){
+    color: #b5ac49;
+    opacity: 0.8;
+}
+#AddElement{
+ background-color:#cf6143;
+color:white
+}
+#AddElement:hover{
+    background-color: #89402c;
+}
